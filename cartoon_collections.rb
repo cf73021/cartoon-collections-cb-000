@@ -13,7 +13,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.upcase
-    
+    call = "#{call}" + "!"
 end
 
 def long_planeteer_calls# code an argument here
