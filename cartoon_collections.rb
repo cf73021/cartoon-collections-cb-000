@@ -6,7 +6,7 @@ def roll_call_dwarves(names)
     ordered_dwarves << name
   end
 
-  return ordered_dwarves
+  puts ordered_dwarves
 end
 
 def summon_captain_planet# code an argument here
