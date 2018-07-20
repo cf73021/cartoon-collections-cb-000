@@ -4,7 +4,7 @@ def roll_call_dwarves(names)
   names.each_with_index do |name, index|
     name = "#{index}" + "#{name}"
     ordered_dwarves << name
-    name
+    return name
   end
 
 
