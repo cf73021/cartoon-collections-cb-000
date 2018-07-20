@@ -2,6 +2,8 @@ def roll_call_dwarves(names)
   ordered_dwarves = []
   names.each_with_index do |name|
     ordered_dwarves << name
+  end
+  ordered_dwarves
 end
 
 def summon_captain_planet# code an argument here
