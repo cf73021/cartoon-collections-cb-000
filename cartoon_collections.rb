@@ -6,6 +6,7 @@ def roll_call_dwarves(names)
     name = "#{index}" + "#{name}"
     ordered_dwarves << name
   end
+  
   puts ordered_dwarves
 end
 
