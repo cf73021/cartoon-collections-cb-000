@@ -6,12 +6,14 @@ def roll_call_dwarves(names)
     name = "#{index}" + "#{name}"
     ordered_dwarves << name
   end
-  
+
   puts ordered_dwarves
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect do |call|
+    call.upcase
+    
 end
 
 def long_planeteer_calls# code an argument here
